@@ -1,6 +1,6 @@
 ---
 title: "心得 | 2016 變種隨身碟病毒清除方法"
-description: Welcome to Hugo Theme Stack
+description: 教你怎麼把討厭的病毒都刪除。
 slug: 2016usbvirussolution
 date: 2016-08-02 13:13:00+0800
 image: https://media.ffa.tw/featuredImage/2016usbvirussolution.png

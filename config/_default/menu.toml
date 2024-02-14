@@ -1,11 +1,19 @@
 # Configure main menu and social menu
 #[[main]]
 #identifier = "home"
-#name = "Home"
+#name = "首頁"
 #url = "/"
 #[main.params]
 #icon = "home"
 #newtab = true
+
+[[social]]
+identifier = "email"
+name = "Email"
+url = "mailto:contact@ffa.tw"
+
+[social.params]
+icon = "mail"
 
 [[social]]
 identifier = "github"
@@ -22,11 +30,3 @@ url = "https://www.youtube.com/@FeatherAkira"
 
 [social.params]
 icon = "brand-youtube"
-
-[[social]]
-identifier = "email"
-name = "Email"
-url = "contact@ffa.tw"
-
-[social.params]
-icon = "mail"
