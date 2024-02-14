@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Feather Akira's Website</title><link>https://www.ffa.tw/post/</link><description>Recent content in Posts on Feather Akira's Website</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Tue, 02 Aug 2016 13:13:00 +0800</lastBuildDate><atom:link href="https://www.ffa.tw/post/index.xml" rel="self" type="application/rss+xml"/><item><title>心得 | 2016 變種隨身碟病毒清除方法</title><link>https://www.ffa.tw/post/2016usbvirussolution/</link><pubDate>Tue, 02 Aug 2016 13:13:00 +0800</pubDate><guid>https://www.ffa.tw/post/2016usbvirussolution/</guid><description>&lt;img src="https://media.ffa.tw/featuredImage/2016usbvirussolution.png" alt="Featured image of post 心得 | 2016 變種隨身碟病毒清除方法" />&lt;p>最近電腦中毒啦！一向注重資訊安全的我也有中毒的一天（崩潰）。&lt;br>
+只好趕快跟大家分享解毒方法。 QQ&lt;br>
+自己中的是隨身碟病毒，主要特徵是會把隨身碟裡面的檔案都丟進一個「_」資料夾裡面，然後在根目錄創建一個和你隨身碟名稱相同的捷徑去偽裝成你的隨身碟，一般人沒注意點下去可能就不小心中毒了。&lt;br>
+（我自己也是不小心點進去那一個）&lt;br>
+這個解決方法是我自己使用有效的，但如果是變種病毒或是其他狀況可能照做會無法解決，到時候可以私訊或發 Email 給我，我有空可以幫忙解決。&lt;/p>
+&lt;p>解決方法如下：&lt;/p>
+&lt;ol>
+&lt;li>當發現隨身碟發生上述情況時，請勿點選與隨身碟同名之捷徑。&lt;/li>
+&lt;li>打開控制台，切換到傳統檢視後，開啟「資料夾選項」或「檔案總管選項」（Windows 版本不同，此選項名稱也會不同），切換到檢視分頁，將「隱藏的檔案與資料夾」變更為「顯示」、「隱藏保護的作業系統檔案（建議選項）」取消勾選。&lt;/li>
+&lt;li>若為 Windows 10 系統，可打開電腦中任意資料夾後，在視窗上方顯示「檢視」的地方按下去，選擇「選項」即可快速開啟「資料夾選項」。&lt;/li>
+&lt;li>查看隨身碟，可以發現「_」資料夾。&lt;/li>
+&lt;li>將「_」資料夾點開後，備份裡面所有檔案（此處檔案為隨身碟中所有檔案）到電腦，請勿將「_」資料夾整個複製出來，只複製裡面檔案。&lt;/li>
+&lt;li>開啟工作管理員，檢視「處理程序」分頁（Windows 8 以上為「詳細資料」分頁）中是否有「wscript.exe」這個應用程式，若有，表示病毒已經正在運行，請嘗試將此處理程序結束運行並觀察是否會自動重啟此程序，若會，請繼續執行下一點，若無發現此處理程序，請跳過第 7、8 點。&lt;/li>
+&lt;li>備份好隨身碟內資料後，回到「電腦」，對隨身碟點擊右鍵，選擇「格式化&amp;hellip;」並取消勾選「快速格式化」，接著按下「開始」。&lt;/li>
+&lt;li>結束「wscript.exe」處理程序，可能會不只一個，請全部結束。&lt;/li>
+&lt;li>在格式化開始的同時（格式化時間會因為電腦硬體及隨身碟大小而不同），請按下「Windows 鍵 + R 鍵」或選擇開始功能表中的「執行&amp;hellip;」，並於視窗中輸入「msconfig」並按下 Enter，切換到「啟動」分頁，查看裡面是否有「helper」這個項目，若有請直接停用。&lt;/li>
+&lt;li>接著請再次使用「Windows 鍵 + R 鍵」，在視窗中輸入「shell:startup」後按下 Enter，對「helper」捷徑點右鍵，選擇「開啟檔案位置」後，刪除裡面的三個檔案（請使用 Shift + Delete 按鍵直接永久刪除檔案），之後回到上一頁，將「helper」這個捷徑刪除，並且回到下一頁之後，再到上一層目錄（到上一層目錄的按鈕在下一頁按鈕旁邊），刪除「WindowsServices」資料夾（請一樣使用 Shift + Delete 刪除）。&lt;/li>
+&lt;li>等候隨身碟格式化完畢，將備份的隨身碟資料放回後，安全移除隨身碟。&lt;/li>
+&lt;li>重新啟動電腦，並插入隨身碟，檢查隨身碟是否已經正常運作沒有出現捷徑，若是，即成功移除病毒。&lt;/li>
+&lt;/ol>
+&lt;p>目前的話病毒好像是只會建立捷徑，2014 年那個版本會慢慢把資料吃掉，但我不知道這個會怎樣，目前沒事，但是趕快解決吧。&lt;/p>
+&lt;p>參考資料來源：&lt;br>
+&lt;a class="link" href="http://darkk6.blogspot.tw/2014/06/blog-post.html" target="_blank" rel="noopener"
+>http://darkk6.blogspot.tw/2014/06/blog-post.html&lt;/a>&lt;br>
+&lt;a class="link" href="http://computer.kuas.edu.tw/files/16-1006-53930.php" target="_blank" rel="noopener"
+>http://computer.kuas.edu.tw/files/16-1006-53930.php&lt;/a>&lt;br>
+&lt;a class="link" href="https://blog.blackspace.com.tw/%E6%9F%90%E5%80%8Bvbs%E7%97%85%E6%AF%92%E7%B0%A1%E5%96%AE%E5%88%86%E6%9E%90/" target="_blank" rel="noopener"
+>https://blog.blackspace.com.tw/%E6%9F%90%E5%80%8Bvbs%E7%97%85%E6%AF%92%E7%B0%A1%E5%96%AE%E5%88%86%E6%9E%90/&lt;/a>&lt;/p></description></item></channel></rss>
