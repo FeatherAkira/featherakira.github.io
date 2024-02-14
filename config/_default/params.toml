@@ -6,7 +6,7 @@ favicon = "https://media.ffa.tw/favicon.jpg"
 
 [footer]
 since = 2016
-customText = "全站內容皆受著作權法保護，未經同意請勿轉載，如文內註明可轉載亦請務必附上原文出處，謝謝。\n本網站由 Github Pages 提供服務、圖床由 Microsoft Azure 提供服務"
+customText = "全站內容皆受著作權法保護，未經同意請勿轉載，如文內註明可轉載亦請務必附上原文出處，謝謝。<br>本網站由 Github Pages 提供服務、圖床由 Microsoft Azure 提供服務"
 
 [dateFormat]
 published = "2006-01-02"
