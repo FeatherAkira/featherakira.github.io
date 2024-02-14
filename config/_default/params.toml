@@ -18,7 +18,7 @@ subtitle = "這裡是我的個人網站兼部落格，我會在這裡分享心�
 
 [sidebar.avatar]
 enabled = true
-local = true
+local = false
 src = "https://media.ffa.tw/avatar.png"
 
 [article]
